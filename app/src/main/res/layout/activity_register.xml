@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.scu.yangshuai.mytodo.activity.RegisterActivity">
+
+    
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Register"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#243b6b"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:fontFamily="Avenir-Black, Avenir"/>
+    
+    
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="100dp"
+        android:text="电话号码"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="#243b6b"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_shape"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/et_register_phone"
+        android:inputType="phone"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:text="用户名"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="#243b6b"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_shape"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/et_register_username"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:text="密码"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="#243b6b"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_shape"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/et_register_password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_shape"
+        android:layout_gravity="center"
+        android:text="注册"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:id="@+id/btn_register"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#24346b"
+        android:textSize="14sp"
+        android:clickable="true"
+        android:id="@+id/tv_to_login"/>
+
+</LinearLayout>
